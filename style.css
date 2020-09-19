@@ -1,0 +1,77 @@
+body
+{
+    background-color: cyan;
+    font-size: 1.2em;
+    margin: 30px;
+}
+
+h1
+{
+    font-style: italic;
+}
+
+input:invalid
+{
+    background-color: #eeb2b2;
+    border: 5px solid red;
+    color: red;
+
+}
+
+.outil > button
+{
+    font-size: 1.3em;
+}
+
+#form p
+{
+    margin-left: 20px;
+}
+
+p.texte
+{
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+span, a
+{
+    font-weight: bold;
+}
+
+#form span
+{
+    color: red;
+}
+
+span.rectangle
+{
+    background-color: black;
+    border-radius: 5px;
+    color: yellow;
+    padding: 10px;
+}
+
+span.souligne
+{
+    text-decoration: underline;
+}
+
+a
+{
+    background-color: blue;
+    color: cyan;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: blueviolet;
+}
+
+a:active
+{
+    background-color: black;
+}
